@@ -3,14 +3,14 @@ from telegram.ext import ContextTypes
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if update.message:
-        await update.message.reply_text('Привет! Отправь мне код в формате A-001, и я скажу его название по-русски.')
+        await update.message.reply_text('Привет! Отправь мне код в формате 000, и я скажу его название по-русски.')
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if not update.message or not update.message.text:
         return
     number_names = {
         0: 'Я препод',
-        1: 'Один',
+        1: 'Мерцающий арбуз',
         2: 'Скин',
         3: 'Три',
         4: 'Четыре',
