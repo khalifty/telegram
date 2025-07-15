@@ -12,7 +12,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         0: 'Я препод',
         1: 'Мерцающий арбуз',
         2: 'Скин',
-        3: 'Три',
+        3: 'Под прикрытием в старшей школе',
         4: 'Четыре',
         5: 'Пять',
         6: 'Шесть',
