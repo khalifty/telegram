@@ -14,7 +14,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         2: 'Скин',
         3: 'Под прикрытием в старшей школе',
         4: 'Винченцо',
-        5: 'Скоро',
+        5: 'Король Стейтен-Айленда',
         6: 'Скоро',
         7: 'Скоро',
         8: 'Скоро',
